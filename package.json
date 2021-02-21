@@ -1,0 +1,47 @@
+{
+  "name": "xoxa",
+  "version": "0.0.1",
+  "description": "A social media application for my thesis",
+  "productName": "Xoxa",
+  "author": "George Tsilikas <tsili.g@gmail.com>",
+  "private": true,
+  "scripts": {
+    "test": "echo \"No test specified\" && exit 0",
+    "icons": "icongenie generate -i app-icon.png --skip-trim --theme-color 1e88e5 --svg-color 1e88e5"
+  },
+  "dependencies": {
+    "@quasar/extras": "^1.0.0",
+    "axios": "^0.18.1",
+    "busboy": "^0.3.1",
+    "core-js": "^3.6.5",
+    "firebase-admin": "^9.4.2",
+    "firebase-functions": "^3.13.0",
+    "idb": "^5.0.8",
+    "md-gum-polyfill": "^1.0.0",
+    "node-sass": "^5.0.0",
+    "quasar": "^1.0.0",
+    "uuid": "^3.4.0",
+    "web-push": "^3.4.4"
+  },
+  "devDependencies": {
+    "@quasar/app": "^2.0.0",
+    "workbox-webpack-plugin": "^5.1.4"
+  },
+  "browserslist": [
+    "ie >= 11",
+    "last 10 Chrome versions",
+    "last 10 Firefox versions",
+    "last 4 Edge versions",
+    "last 7 Safari versions",
+    "last 8 Android versions",
+    "last 8 ChromeAndroid versions",
+    "last 8 FirefoxAndroid versions",
+    "last 10 iOS versions",
+    "last 5 Opera versions"
+  ],
+  "engines": {
+    "node": ">= 10.18.1",
+    "npm": ">= 6.13.4",
+    "yarn": ">= 1.21.1"
+  }
+}
