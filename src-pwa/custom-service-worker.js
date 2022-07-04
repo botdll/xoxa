@@ -69,13 +69,13 @@ registerRoute(
 registerRoute(
     ({url}) => url.pathname.startsWith('/posts'),
     new NetworkFirst()
-  )
+)
 
 // Stale-While-Revalidate
 registerRoute(
     ({url}) => url.pathname.startsWith('/social-timeline/'),
     new NetworkFirst()
-  );
+)
 
 registerRoute(
     ({url}) => url.href.startsWith('http'),
