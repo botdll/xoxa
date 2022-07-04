@@ -1,22 +1,6 @@
 # Xoxa (xoxa)
 
-A social media application for my thesis
+Xoxa is a social media application that offers to its users the ability to post their selfies.
 
-## Install the dependencies
-```bash
-npm install
-```
-
-### Start the app in development mode (hot-code reloading, error reporting, etc.)
-```bash
-quasar dev
-```
-
-
-### Build the app for production
-```bash
-quasar build
-```
-
-### Customize the configuration
-See [Configuring quasar.conf.js](https://quasar.dev/quasar-cli/quasar-conf-js).
+## Scope
+It's an effort to present the capabilities that Progressive Web Apps have to use native device features and offer a user experience very close to a native app.
