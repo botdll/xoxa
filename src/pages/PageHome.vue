@@ -60,7 +60,7 @@
 
             <q-separator />
 
-            <q-img :src="post.imageUrl" />
+            <q-img :src="post.imageUrl" :ratio="4/3"/>
 
             <q-card-section>
               <div>{{ post.message }}</div>
